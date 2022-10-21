@@ -1,0 +1,9 @@
+open the excel and create the column customer name and  duplicate name.
+
+enter the given details into the customer name
+
+click any cell under the column duplicate name and enter the formula
+
+=IF(COUNTIF($A$2:$A$17,A2)>1,A2,"")
+
+the results will be displayed after executing the formula.
