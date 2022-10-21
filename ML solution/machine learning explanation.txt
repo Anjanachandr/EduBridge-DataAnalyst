@@ -1,0 +1,45 @@
+Import the required libraries 
+pandas,numpy,matplotlib,sklearn,seaborn.
+Pandas is a Python library. Pandas is used to analyze data.
+NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.NumPy can be used to perform a wide variety of mathematical operations on arrays. 
+Matplotlib is a library used for creating static, animated, and interactive visualizations in Python.
+Sklearn provides a selection of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction via a consistence interface in Python.
+Seaborn is a library used for making statistical graphics in Python.
+
+Load the csv file "train.csv" and store in a variable df.
+
+print the head, info and description of the dataset. This provides the summary of the data like mean , median , mode, count, quartile, standard deviation.
+
+use df. isna(). sum() to return the number of missing values in each column.
+
+use bar plot or count plot to show the counts of observations in each categorical bin using bars for the column fetal health.
+
+print the column names stored in the variable clmn1 and clmn2.
+
+split the data into x_train, x_test, y_train ,y_test using train_test_split from the library sklearn.
+
+visualize the correlation between the variables using heatmap .To make it more attractive can apply colours . the default color will be red.
+
+use a boxplot to visualize every columns.
+
+drop_outliers() is used to drop all the outlier and visualize the data in the box plot. A comparision between before removing outlier and after removing outlier will be helpful to understand the difference.
+
+StandardScaler() function to standardize the data values into a standard format. we initially create an object of the StandardScaler() function. we use fit_transform() along with the assigned object x_train and x_test transform the data and standardize it.
+
+print the x_train and x_test
+
+KNN is a supervised machine learning (ML) algorithm that can be used for classification or regression . We us classifier.fit() with assigned object x_train and y_train.
+
+store the predicted value from x_test in the variable y_pred
+
+print the accuracy score for the object y_pred and y_test.
+
+store the predicted value from test_set in the variable y_pre and print the value.
+
+assign the predicted value , y_pred to a variable and store the result in a csv file.
+
+
+
+
+
+
